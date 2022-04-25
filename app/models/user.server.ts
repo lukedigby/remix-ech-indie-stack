@@ -5,9 +5,11 @@ import { prisma } from "~/db.server";
 export type { User } from "@prisma/client";
 
 export async function getUserById(id: User["id"]) {
+  return null;
 }
 
 export async function getUserByEmail(email: User["email"]) {
+  return null;
 }
 
 export async function createUser(email: User["email"], password: string) {
